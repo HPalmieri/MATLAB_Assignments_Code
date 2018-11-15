@@ -1,7 +1,7 @@
 % Pascal Coding Class
 % Assignment Eight 
 % April. 22nd. 2018 
-% Name 
+% Helena Palmieri 
 
 %% Preface 
 % This code is meant to analyses the data from the Levenson Self-Report
@@ -10,11 +10,12 @@ clear all
 close all
 clc
 
-% Deshawn's Code 
+% Deshawn Sambrano's Code -------------
 olddir = pwd; 
 tmp = matlab.desktop.editor.getActive; 
 newdir = fileparts(tmp.Filename); 
 cd(newdir); 
+% -------------------------------------
 
 %% Loading the Data 
 xlsread('LSRP')  % Loading the excel file
