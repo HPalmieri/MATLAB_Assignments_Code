@@ -1,6 +1,6 @@
 % Pascal Scientific Coding 
 % Assignment Six
-% (Name) 
+% Helena Palmieri
 % March. 28th. 2018 
 
 %% Preface 
@@ -10,11 +10,12 @@
 % make conclusions. 
 
 %% Loading Data
-% Deshawn Code
+% Deshawn Sambrano's Code --------------------
 olddir = pwd; 
 tmp = matlab.desktop.editor.getActive; 
 newdir = fileparts(tmp.Filename); 
 cd(newdir); 
+% --------------------------------------------
 
 raw_data = xlsread('timeseries2015.xlsx'); % Loading the excel file
 
@@ -25,7 +26,7 @@ clean_data(isnan(raw_data(:,7)),:) = [];
 
 %% Convolution 
 % In this section we are smoothing the data by a kernel length of seven (seven days
-% in a week) makes sense. ¯\_('_')_/¯
+% in a week) makes sense. Â¯\_('_')_/Â¯
 kernel_length = 7;
 kernel = ones(kernel_length,1);
 kernal_weight = sum(kernel); 
