@@ -1,11 +1,11 @@
 % Assignment Nine 
 % Pascal Coding 
-% (Name) 
+% Helena Palmieri
 % April. 26th. 2018 
 
 %% Preface 
 
-% This code is meant to analysis New York prisoners are we are interested in 
+% This code is meant to analyze New York prisoners, are we are interested in 
 % different treatments and causes for psychosis.
 
 % Basic 
@@ -13,11 +13,12 @@ close all
 clear all
 clc
 
-% Deshawn's Code 
+% Deshawn Sambrano's Code --------------------
 olddir = pwd; 
 tmp = matlab.desktop.editor.getActive; 
 newdir = fileparts(tmp.Filename); 
 cd(newdir); 
+----------------------------------------------
 
 %% Load Data 
 load ('psychopathy.mat') 
