@@ -1,7 +1,7 @@
 % Pascal Coding Class
 % Homework Seven 
 % April. 12th. 2018 
-% Name: - 
+% Helena Palmieri 
 
 %% Preface 
 
@@ -9,11 +9,12 @@
 % words in English, in amplitude, and in a spectogram using different windows
 % and filters. 
 
-% Deshawn's Code
+% Deshawn Sambrano's Code -----------------
 olddir = pwd; 
 tmp = matlab.desktop.editor.getActive; 
 newdir = fileparts(tmp.Filename); 
 cd(newdir); 
+% ------------------------------------------
 
 clear all
 close all
